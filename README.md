@@ -1,7 +1,9 @@
-🏦 Bank Loan Approval Predictor
+🏦 **Bank Loan Approval Predictor**
+
 This Streamlit web application predicts whether a bank loan application will be approved or not approved based on user inputs using a machine learning model.
 
-🚀 Features
+🚀 **Features**
+
 🧠 ML-Powered Prediction: Utilizes a pre-trained classification model to assess loan approval likelihood.
 
 📋 User-Friendly Form: Intuitive input form to collect applicant data such as deposit status, job type, education level, and more.
@@ -15,6 +17,7 @@ This Streamlit web application predicts whether a bank loan application will be 
 📈 Feature Importance: Visualizes which features contribute most to the model's decision (if supported by model).
 
 📥 Inputs Collected
+
 Deposit Status
 
 Previous Campaign Outcome
@@ -31,7 +34,7 @@ Personal Loan
 
 Job Type
 
-🛠️ Technologies Used
+🛠️ **Technologies Used**
 Python
 
 Streamlit for UI
@@ -44,7 +47,7 @@ matplotlib for feature importance visualization
 
 pickle for loading the trained model
 
-📄 How to Run
+📄 **How to Run**
 Clone this repository:
 
 bash
@@ -64,7 +67,9 @@ bash
 Copy
 Edit
 streamlit run app.py
-📁 Files
+
+📁 **Files**
+
 app.py: Main application script.
 
 loan_approval_model.pkl: Trained machine learning model.
